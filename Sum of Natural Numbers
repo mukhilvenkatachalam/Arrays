@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
   public:
     int seriesSum(int n) {
@@ -8,3 +11,19 @@ class Solution {
         return count;
     }
 };
+
+int main() {
+    int t;
+    scanf("%d ", &t);
+    while (t--) {
+
+        int n;
+        scanf("%d", &n);
+
+        Solution obj;
+        int res = obj.seriesSum(n);
+
+        cout << res << endl;
+        cout << "~" << endl;
+    }
+}
