@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution {
   public:
     int seriesSum(int n) {
@@ -11,7 +10,6 @@ class Solution {
         return count;
     }
 };
-
 int main() {
     int t;
     scanf("%d ", &t);
